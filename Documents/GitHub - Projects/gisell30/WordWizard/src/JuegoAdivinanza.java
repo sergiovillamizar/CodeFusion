@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -6,6 +9,8 @@ import java.util.Random;
 public class JuegoAdivinanza {
     private Palabra palabra;
     private int intentos;
+
+    // Metodo para obtener palabras segun la temática seleccionada
     public static List<String> obtenerPalabrasPorTematica(String tema) {
         List<String> palabras = new ArrayList<>();
         String rutaBase = System.getProperty("user.dir") + File.separator + "temas" + File.separator;
@@ -54,7 +59,7 @@ public class JuegoAdivinanza {
         if (intentosMaximos <= 0) {
             throw new IllegalArgumentException("El número de intentos debe ser mayor que cero.");
         }
-        this.palabra = new Palabra(palabraSeleccionada);
+        //this.palabra = new Palabra(palabraSeleccionada);
         this.intentos = intentosMaximos;
     }
 }
