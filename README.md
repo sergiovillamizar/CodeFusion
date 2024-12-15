@@ -103,10 +103,6 @@ Categoría: Animales
 
 ---
 
-## Licencia
-Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.
-
----
 
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, sigue estos pasos:
