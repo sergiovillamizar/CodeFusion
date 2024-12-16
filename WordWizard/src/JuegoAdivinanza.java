@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Clase que gestiona la lógica principal de un juego de adivinanza de palabras.
+ * Clase que gestiona la logica principal de un juego de adivinanza de palabras.
  * Permite cargar palabras de un archivo basado en temáticas, realizar intentos
  * de adivinanza y determinar el estado del juego (ganado, perdido o en progreso).
  */
@@ -39,6 +39,23 @@ public class JuegoAdivinanza {
             System.err.println("Error al leer el archivo: " + e.getMessage());
         }
         return palabras;
+    }
+
+    /**
+     * Inicia el juego seleccionando una palabra aleatoria de un archivo basado en
+     * la temática dada.
+     *
+     * @param tema           La temática de las palabras.
+     * @param intentosMaximos El número máximo de intentos permitidos.
+     * @throws IllegalArgumentException Si no se encuentra ninguna palabra para la temática dada
+     *                                  o si el número de intentos es inválido.
+     */
+    public void iniciarJuego(String tema, int intentosMaximos) {
+        String palabraSeleccionada = seleccionarPalabra(tema);
+        if (palabraSeleccionada == null) {
+            throw new IllegalArgumentException("No se encontró ninguna palabra en el archivo para la temática: " + tema);
+        }
+        iniciarJuegoConPalabra(palabraSeleccionada, intentosMaximos);
     }
 
     /**
