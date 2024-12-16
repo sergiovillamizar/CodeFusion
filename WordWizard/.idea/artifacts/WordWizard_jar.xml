@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WordWizard:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WordWizard_jar</output-path>
+    <root id="archive" name="WordWizard.jar">
+      <element id="module-output" name="WordWizard" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,100 @@
+telefono  
+mesa  
+silla  
+lampara  
+ordenador  
+libro  
+vaso  
+cuchara  
+cuchillo  
+tenedor  
+plato  
+taza  
+boligrafo  
+lapiz  
+goma  
+papel  
+cuaderno  
+mochila  
+cartera  
+reloj  
+espejo  
+televisor  
+sofa  
+alfombra  
+cortina  
+cuadro  
+cama  
+colchon  
+silla de oficina  
+silla plegable  
+escritorio  
+armario  
+cajon  
+ventilador  
+aire acondicionado  
+frigorifico  
+microondas  
+estufa  
+licuadora  
+tostadora  
+batidora  
+licuadora  
+aspiradora  
+secadora  
+lavadora  
+plancha  
+secador de pelo  
+caldera  
+estufa electrica  
+exprimidor  
+tostadora  
+aspiradora  
+ventilador  
+reloj despertador  
+bombilla  
+altavoz  
+auriculares  
+camara  
+telefono movil  
+laptop  
+tablet  
+cargador  
+adaptador  
+raton  
+teclado  
+impresora  
+escaner  
+disco duro  
+pendrive  
+tarjeta de memoria  
+libro de cocina  
+diccionario  
+enciclopedia  
+calendario  
+pincel  
+oleo  
+lienzo  
+pintura  
+caja  
+lata  
+bolsa  
+caja de herramientas  
+destornillador  
+martillo  
+clavo  
+tornillo  
+llave inglesa  
+alicate  
+taladro  
+sierras  
+cinto  
+cinturon  
+guantes  
+sombrero  
+gafas de sol  
+bufanda  
+chaleco  
+chaqueta  
+botas  
+zapatos  
